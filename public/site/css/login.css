@@ -1,0 +1,96 @@
+.box-login .wrap-login, .box-register .wrap-register {
+    margin: 20px auto;
+    box-shadow: 0px 1px 69.16px 6.84px rgba(20,64,51,0.05);
+    border-radius: 10px;
+    position: relative;
+    width: 40%;
+    padding: 20px;
+}
+.content-loginPage, .content-registerPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.content-loginPage .title-loginPage, .content-registerPage .title-registerPage {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    color: #333333;
+}
+.content-loginPage .notifi-loginPage, .content-registerPage .notifi-registerPage {
+    font-size: 16px;
+}
+.content-loginPage .notifi-loginPage span a:hover {
+    color: #e01a22;
+}
+.content-registerPage .notifi-registerPage span a:hover {
+    color: #e01a22;
+}
+.content-loginPage .form-loginPage, .content-registerPage .form-registerPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.content-loginPage .form-loginPage input, .content-registerPage .form-registerPage input {
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    color: #333;
+    line-height: 45px;
+    border-color: #ebebeb;
+    background: #ebebeb;
+    box-shadow: none;
+    outline: none;
+    border: initial;
+}
+.content-loginPage .form-loginPage button, .content-registerPage .form-registerPage button {
+    color: #fff;
+    background: #e01a22;
+    border: solid 1px #e01a22;
+    font-size: 16px;
+    line-height: 42px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+}
+.content-loginPage .form-loginPage button:hover {
+    color: #e01a22;
+    background-color: #fff
+}
+.content-registerPage .form-registerPage button:hover {
+    color: #e01a22;
+    background-color: #fff
+}
+.box-login .wrap-login .content-loginPage .form-loginPage .forget-password a {
+    font-size: 16px;
+    color: #333;
+}
+.box-login .wrap-login .content-loginPage .form-loginPage .forget-password a:hover {
+    color: #e01a22;
+}
+.social-loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.social-loginPage span {
+    font-size: 16px;
+}
+.social-loginPage .social-login {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.social-loginPage .social-login .social-login--facebook {
+    width: 140px;
+    height: 40px;
+}
+.social-loginPage .social-login .social-login--google {
+    width: 140px;
+    height: 40px;
+}
